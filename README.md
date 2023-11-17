@@ -1,8 +1,8 @@
-#Image Captioning
+# Image Captioning
 
-###Objective: Design a CNN-LSTM system for image captioning, comparing baseline and modified baseline models.
+### Objective: Design a CNN-LSTM system for image captioning, comparing baseline and modified baseline models.
 
-###Dataset: Utilized the Flickr8K dataset with 8,000 images, each accompanied by five captions.
+### Dataset: Utilized the Flickr8K dataset with 8,000 images, each accompanied by five captions.
 
 Data Preprocessing:
 
