@@ -1,4 +1,4 @@
-# Image Captioning
+## Image Captioning
 
 ### Objective: Design a CNN-LSTM system for image captioning, comparing baseline and modified baseline models.
 
