@@ -1,10 +1,10 @@
 # Image Captioning
 
-### Objective: Design a CNN-LSTM system for image captioning, comparing baseline and modified baseline models.
+## Objective: Design a CNN-LSTM system for image captioning, comparing baseline and modified baseline models.
 
-### Dataset: Utilized the Flickr8K dataset with 8,000 images, each accompanied by five captions.
+## Dataset: Utilized the Flickr8K dataset with 8,000 images, each accompanied by five captions.
 
-Data Preprocessing:
+## Data Preprocessing:
 
 Cleaned captions by lowercasing and removing special tokens.
 Selected words occurring at least 10 times for robustness.
@@ -15,22 +15,24 @@ Encoded words into fixed-sized vectors using wordToIndex and indexToWord diction
 Used data generators for efficient processing of large datasets.
 Embeddings:
 
-Vision Embedding: Averaged image feature vector from InceptionV3 for baseline and ViT for modified baseline.
-Word Embedding: Utilized pre-trained GLoVe word embeddings.
-Model Architecture:
+### Vision Embedding: Averaged image feature vector from InceptionV3 for baseline and ViT for modified baseline.
+### Word Embedding: Utilized pre-trained GLoVe word embeddings.
+
+## Model Architecture:
 
 CNN-LSTM model with InceptionV3 for baseline and ViT for modified baseline.
 LSTM for sequential data processing.
 Used Categorical Cross Entropy loss and Adam optimizer.
 Training:
 
-Baseline: Trained for 20 epochs with batch size 3.
-Modified Baseline: Trained for 12 epochs with batch size 4.
+### Baseline: Trained for 20 epochs with batch size 3.
+### Modified Baseline: Trained for 12 epochs with batch size 4.
 Evaluation:
 
-Metrics: BLEU and METEOR scores on Flickr8K test data.
-Comparison: Baseline vs. Modified Baseline.
-Results:
+### Metrics: BLEU and METEOR scores on Flickr8K test data.
+#### Comparison: Baseline vs. Modified Baseline.
+
+### Results:
 
 BLEU Scores: Baseline - 0.5505, Modified Baseline - 0.5603.
 METEOR Scores: Baseline - 0.3156, Modified Baseline - 0.2017.
