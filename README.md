@@ -1,10 +1,10 @@
 # Image Captioning
 
-## Objective: Design a CNN-LSTM system for image captioning, comparing baseline and modified baseline models.
+### Objective: Design a CNN-LSTM system for image captioning, comparing baseline and modified baseline models.
 
-## Dataset: Utilized the Flickr8K dataset with 8,000 images, each accompanied by five captions.
+### Dataset: Utilized the Flickr8K dataset with 8,000 images, each accompanied by five captions.
 
-## Data Preprocessing:
+### Data Preprocessing:
 
 Cleaned captions by lowercasing and removing special tokens.
 Selected words occurring at least 10 times for robustness.
@@ -18,7 +18,7 @@ Embeddings:
 ### Vision Embedding: Averaged image feature vector from InceptionV3 for baseline and ViT for modified baseline.
 ### Word Embedding: Utilized pre-trained GLoVe word embeddings.
 
-## Model Architecture:
+### Model Architecture:
 
 CNN-LSTM model with InceptionV3 for baseline and ViT for modified baseline.
 LSTM for sequential data processing.
