@@ -23,11 +23,13 @@ Embeddings:
 CNN-LSTM model with InceptionV3 for baseline and ViT for modified baseline.
 LSTM for sequential data processing.
 Used Categorical Cross Entropy loss and Adam optimizer.
-Training:
+
+### Training:
 
 ### Baseline: Trained for 20 epochs with batch size 3.
 ### Modified Baseline: Trained for 12 epochs with batch size 4.
-Evaluation:
+
+### Evaluation:
 
 ### Metrics: BLEU and METEOR scores on Flickr8K test data.
 #### Comparison: Baseline vs. Modified Baseline.
